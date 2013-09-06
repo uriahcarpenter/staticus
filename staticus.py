@@ -1,9 +1,8 @@
 from requests import get
 
-from local import API_KEY
-
+API_KEY = ""
 MY_DOMAIN = "mailgun.net"
-MY_STATUS_LIST = "satshabad@mailgun.net"
+MY_STATUS_LIST = "status-updates@mailgun.net"
 EVENTS_API_URL = "https://api.mailgun.net/v2/{}/events".format(MY_DOMAIN)
 
 
