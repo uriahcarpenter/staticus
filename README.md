@@ -3,12 +3,13 @@ Staticus
 
 This is a sample app to show the usage of mailgun's mail storage API, here's how to set it up for your team.
 
+In this example we use status-updates@mailgun.com for our status list, but you should pick something else like status-updates@mycompany.com
 
-First set up a Mailgun mailing list (something like ``status@mycompany.com`` ).
+First set up a Mailgun mailing list (something like ``status-updates@mailgun.com`` ).
 
 ![](https://raw.github.com/mailgun/staticus/master/assets/make_mailing_list.png)
 
-Then add a route when the matcher is ``match_recipient(status@mycompany.com)`` and the action is ``store()``
+Then add a route when the matcher is ``match_recipient(status-update@mailgun.com)`` and the action is ``store()``
 
 ![](https://raw.github.com/mailgun/staticus/master/assets/make_store_route.png)
 
